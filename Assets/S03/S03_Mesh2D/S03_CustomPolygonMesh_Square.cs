@@ -12,6 +12,7 @@
               new Vector3(1f, -0.5f, 0f), //1
               new Vector3(1f, 0.5f, 0f), //2
               new Vector3(0f, 1.3f, 0f), //3
+              new Vector3(-1f, 0.5f, 0f), //4
           };
 
           // TODO 2: 정점 3개씩 묶어 삼각형들을 구성하세요
@@ -19,6 +20,7 @@
           {
               0, 1, 2,
               0, 2, 3,
+              0, 3, 4,
           };
 
           Mesh mesh = new Mesh();
